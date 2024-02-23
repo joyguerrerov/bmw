@@ -1,0 +1,25 @@
+*{
+    margin: O;
+    padding: 0;
+    list-style: none;
+ }
+ .b-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+}
+.b-banner{
+    position:relative ; 
+    width: 100%;
+    display: flex;
+    bottom: 130px;
+}
+.b-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 100%;
+    z-index: 2;
+}
