@@ -11,6 +11,7 @@
     background-size: cover; /*adapta la imagen al fondo con calidad*/
     height: 100vh;
     width: 100vw;
+
 }
 
 .b-lista{ /*contenedor padre*/
@@ -19,6 +20,7 @@
     box-sizing: border-box;
     display:flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 .b-letras{
@@ -42,12 +44,16 @@
     
 }
 
-.b-letras__left{
-    background-color: red;
+.b-lista__left{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
 }
 
-.b-letras__rigth{
-    background-color: blue;
+.b-lista__rigth{
+    display: flex;
+    align-items: center;
 }
 
 .material-symbols-outlined{
@@ -58,11 +64,15 @@
 }
 
 .b-logo{
-    width: 10px;
+    
+    background-position: center;
+    background-size: cover;
+    height: 15px;
+    width: 5px;
 }
 
 .b-logo__letra{
-    width: 20px;
+    font-size: 10px;
 }
 
 .btn{
