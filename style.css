@@ -1,25 +1,85 @@
-*{
-    margin: O;
+*{ /*quita los margenes basicos */
     padding: 0;
+    margin: 0;
     list-style: none;
  }
- .b-header{
-    display: flex;
+ /*inicio encabezado*/
+ 
+.imgcont{ /*para poner una imagen en el fondo del bloque*/
+    background-image: url(./images/cochetitulo.png);
+    background-position: center;
+    background-size: cover; /*adapta la imagen al fondo con calidad*/
+    height: 100vh;
+    width: 100vw;
+}
+
+.b-lista{ /*contenedor padre*/
+    width: 100%;
+    height: 15%;
+    box-sizing: border-box;
+    display:flex;
     justify-content: space-between;
-    width: 100%;
-    position: absolute;
 }
-.b-banner{
-    position:relative ; 
-    width: 100%;
+
+.b-letras{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 7, 7);
+    
+}
+
+.b-letras__xl{
+    font-size: 40px;
+    color: #f5f5f7;
+    margin-bottom: 0;
+}
+
+.b-letras__xs{
+    color: rgb(252, 252, 253);
+    text-decoration: none;
+    font-size: 21px;
+    margin: 8px 0px;
+    
+}
+
+.b-letras__left{
+    background-color: red;
+}
+
+.b-letras__rigth{
+    background-color: blue;
+}
+
+.material-symbols-outlined{
+
+}
+.icons{
+
+}
+
+.b-logo{
+    width: 10px;
+}
+
+.b-logo__letra{
+    width: 20px;
+}
+
+.btn{
+    font-size: 12px;
+    background-color:rgb(46, 132, 217) ;
+    padding: 13px 88px;
+    border: 0;
+    margin-bottom: 2%;
+    color: #f5f5f7;
+}
+.pie{
     display: flex;
-    bottom: 130px;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 90%;
+    height: 80%;
+    margin-left: 40px;
 }
-.b-menu{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-top: 50px;
-    width: 100%;
-    z-index: 2;
-}
+/* fim encabezado*/
