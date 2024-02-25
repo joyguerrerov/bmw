@@ -11,22 +11,24 @@
     background-size: cover; /*adapta la imagen al fondo con calidad*/
     height: 100vh;
     width: 100vw;
-
 }
 
 .b-lista{ /*contenedor padre*/
-    width: 100%;
+    width: 80%;
+    margin-left: 100px;
     height: 15%;
+    padding-bottom: 10px;
     box-sizing: border-box;
     display:flex;
+    align-items: flex-end;
     justify-content: space-between;
-    list-style: none;
+    border-bottom: #a9a9ae29 solid;
 }
 
 .b-letras{
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(7, 7, 7);
+    color: white;
     
 }
 
@@ -48,31 +50,33 @@
     list-style: none;
     display: flex;
     align-items: center;
-
+    gap: 10px;
 }
 
 .b-lista__rigth{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .material-symbols-outlined{
-
-}
-.icons{
-
+    color: white;
 }
 
 .b-logo{
-    
-    background-position: center;
-    background-size: cover;
-    height: 15px;
-    width: 5px;
+    display: flex;
+    height: 60px;
+    border: none;
+    margin-bottom: -5px;
+    margin-block-end: -8px;
 }
 
 .b-logo__letra{
-    font-size: 10px;
+    font-size: 7px;
+    text-align: center;
+    background-color: white;
+    border-top: black solid;
+    padding: 5px 0px;
 }
 
 .btn{
@@ -88,8 +92,8 @@
     align-items: baseline;
     flex-direction: column;
     justify-content: flex-end;
-    width: 90%;
-    height: 80%;
+    width: 80%;
+    height: 73%;
     margin-left: 40px;
 }
 /* fim encabezado*/
